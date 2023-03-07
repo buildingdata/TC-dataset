@@ -76,6 +76,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 h1+p {
   margin-left: auto;
   margin-right: auto;
@@ -83,7 +89,7 @@ h1+p {
 }
 
 h1~p {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
 }
 
