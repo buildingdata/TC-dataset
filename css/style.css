@@ -49,12 +49,12 @@
 }
 
 ::-moz-selection {
-  background: #9ccc6480;
+  background: #6ac8f480;
   color: #4d4433;
 }
 
 ::selection {
-  background: #9ccc6480;
+  background: #6ac8f480;
   color: #4d4433;
 }
 
@@ -108,7 +108,7 @@ code {
 }
 
 a {
-  color: #9ccc64;
+  color: #6ac8f4;
   box-shadow: inset 0 -3px #efefef;
   font-weight: 700;
   text-decoration: none;
@@ -117,7 +117,7 @@ a {
 
 a:hover,
 a:focus {
-  box-shadow: inset 0 -1.2em #9ccc64;
+  box-shadow: inset 0 -1.2em #6ac8f4;
   color: #f8f5fe;
 }
 
@@ -222,4 +222,11 @@ summary:focus {
   margin-top: 0.5em;
   -webkit-transform: rotate(225deg);
   transform: rotate(225deg);
+}
+
+.small-list-title {
+  background: #88e1bf;
+  color: #f8f5fe;
+  font-weight: 600;
+  font-style: italic;
 }
