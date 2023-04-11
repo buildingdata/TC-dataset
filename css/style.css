@@ -230,3 +230,8 @@ summary:focus {
   font-weight: 600;
   font-style: italic;
 }
+
+.small-list-animation {
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+}
